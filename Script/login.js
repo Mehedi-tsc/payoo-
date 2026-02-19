@@ -6,7 +6,7 @@ document.getElementById('login-btn')
         const pin = inputPin.value;
         if(mobile==='01734544516'&& pin==='1234'){
             alert('login succesfully')
-            window.location.assign("/home.html")
+            window.location.assign("home.html")
         }
         else{
             alert('Mobile or Pin is not correct')
